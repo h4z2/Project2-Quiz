@@ -1,0 +1,40 @@
+.a:link
+{
+    color: rgb(0, 0, 0);
+}
+body
+{
+    background-color: rgb(255, 0, 0);
+}
+.wrapper
+{
+    width: 90vw;
+    padding-left: 10vw;
+    padding-top: 5vw;
+}
+.header
+{
+    height: 7vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vw;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+nav
+{
+    height: 3vw;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    background-color: rgb(175, 175, 175);
+    text-align: center;
+}
+.home
+{
+    color: black;
+}
+.howto
+{
+    color: black;
+}
