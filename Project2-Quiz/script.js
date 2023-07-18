@@ -1,15 +1,9 @@
 "use strict"
-// Define your quiz questions and options here
-const questions = [
+const questions=[
     {
-      question: "What is the capital of France?",
-      options: ["Paris", "London", "Berlin", "Madrid"],
-      answer: "Paris",
-    },
-    {
-      question: "What is 5 + 3?",
-      options: ["8", "9", "10", "7"],
-      answer: "8",
+        question: "What is the capital of France?",
+        options: ["Paris", "London", "Berlin", "Madrid"],
+        answer: "Paris",
     },
     {
         question: "What is 5 + 3?",
@@ -26,10 +20,15 @@ const questions = [
         options: ["8", "9", "10", "7"],
         answer: "8",
     },
-  ];
+    {
+        question: "What is 5 + 3?",
+        options: ["8", "9", "10", "7"],
+        answer: "8",
+    },
+];
   
-  let currentQuestion = 0;
-  let score = 0;
+    let currentQuestion = 0;
+    let score = 0;
   
   // Function to display the current question and options
 function showQuestion() {
