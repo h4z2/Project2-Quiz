@@ -60,11 +60,10 @@ nav
     font-size: 3vw;
     text-align: center;
     font-size: 2vw;
-    padding: 3vw;
+    padding: 1vw;
     text-align: center;
     background-color: rgb(255, 115, 0);
     color: rgb(0, 0, 0);
-    padding: 10px;
     border: none;
     border-radius: 1vw;
 }
@@ -81,30 +80,31 @@ nav
 .finish
 {
     font-size: 2vw;
-    padding: 3vw;
+    padding: 1vw;
     text-align: center;
     background-color: rgb(255, 115, 0);
     color: rgb(0, 0, 0);
-    padding: 10px;
     border: none;
     border-radius: 1vw;
 }
 .section
 {
-    height: 30vw;
+    height: 40vw;
     background-color: rgb(255, 255, 255);
     padding: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
 }
 h1
 {
     font-size: 3vw;
-    padding: 3vw;
+    padding: 2vw;
     text-align: center;
 }
 p
 {
     font-size: 2vw;
-    padding: 3vw;
+    padding: 2vw;
 }
 .cheatsheet
 {
@@ -116,8 +116,15 @@ p
 {
     background-color: rgb(255, 115, 0);
     color: rgb(0, 0, 0);
-    padding: 10px;
+    padding: 1vw;
     border: none;
     border-radius: 1vw;
     margin: 0.5vw;
+}
+.answers
+{
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
+    padding-left: 2vw;
+    border: 1vw;
 }

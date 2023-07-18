@@ -1,29 +1,29 @@
 "use strict"
 const questions=[
     {
-        question: "What is the capital of France?",
-        options: ["Paris", "London", "Berlin", "Madrid"],
-        answer: "Paris",
+        question: "When did humanity first land on the moon?",
+        options: ["1964", "1967", "1970", "1969"],
+        answer: "1969",
     },
     {
-        question: "What is 5 + 3?",
-        options: ["8", "9", "10", "7"],
-        answer: "8",
+        question: "What was the year we began exploring space?",
+        options: ["1955", "1958", "1957", "1952"],
+        answer: "1958",
     },
     {
-        question: "What is 5 + 3?",
-        options: ["8", "9", "10", "7"],
-        answer: "8",
+        question: "What year was the James Webb Telescope launched?",
+        options: ["2021", "2019", "2023", "2022"],
+        answer: "2021",
     },
     {
-        question: "What is 5 + 3?",
-        options: ["8", "9", "10", "7"],
-        answer: "8",
+        question: "When was the Hubble Telescope launched?",
+        options: ["1987", "1993", "1990", "1981"],
+        answer: "1990",
     },
     {
-        question: "What is 5 + 3?",
-        options: ["8", "9", "10", "7"],
-        answer: "8",
+        question: "How many humans have left earth in total?",
+        options: ["12", "24", "32", "29"],
+        answer: "24",
     },
 ];
   
