@@ -1,6 +1,7 @@
 body
 {
     background-color: rgb(255, 0, 0);
+    padding-bottom: 5vw;
 }
 .wrapper
 {
@@ -82,14 +83,14 @@ nav
     font-size: 2vw;
     padding: 1vw;
     text-align: center;
-    background-color: rgb(255, 115, 0);
+    background-color: rgb(20, 165, 0);
     color: rgb(0, 0, 0);
     border: none;
     border-radius: 1vw;
 }
 .section
 {
-    height: 40vw;
+    height: 42vw;
     background-color: rgb(255, 255, 255);
     padding: 1vw;
     border-bottom-left-radius: 1vw;
@@ -114,7 +115,7 @@ p
 }
 .button-style
 {
-    background-color: rgb(255, 115, 0);
+    background-color: rgb(255, 217, 0);
     color: rgb(0, 0, 0);
     padding: 1vw;
     border: none;
@@ -126,5 +127,5 @@ p
     color: rgb(0, 0, 0);
     font-size: 2vw;
     padding-left: 2vw;
-    border: 1vw;
+    text-align: center;
 }
