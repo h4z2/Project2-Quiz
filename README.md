@@ -1,4 +1,4 @@
-<h1>Harrison Webbs Website Project</h1>
+<h1>Harrison Webbs Quiz Project</h1>
 This Project is a responsive quiz to showcase all the knowledge and skills learnt during the second section of my course Code+.
 The website offers a breif explanation of how to start the quiz, the quiz itself and a results page where your score is shown.
 
