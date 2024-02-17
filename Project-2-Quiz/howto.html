@@ -1,36 +1,92 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <title>Project-2-Quiz</title>
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-        <!--Link to styles and javascript-->
-        <link rel="stylesheet" type="text/css" href="styles.css" />
-    </head>
-    <body>
-        <div class="wrapper">
-            <div class="header">Quiz!</div>
-            <nav>
-                <a href=#><div class="howto">How To</div></a>
-                <a href=index.html><div class="home">Start Quiz</div></a>
-                <a href=results.html><div class="results">Results</div></a>
-            </nav>
-            <div class="section">
-                <h1>Welcome to my quiz!</h1>
-                <p>
-                    When you are ready to begin the quiz all you have to do is click "Start Quiz".
-                    Once you have started click the answer you think is correct and you will be immediately
-                    taken to the next question. After you have answered all the questions your results
-                    will be saved to the results page.
-                </p>
-            </div>
-                <footer>
-                </footer>
+
+<head>
+    <meta charset="utf-8" />
+    <!-- Tag for proper responsive behaviour -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Webbsite Design</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- CSS stylesheet link -->
+    <link rel="stylesheet" type="text/css" href="css\styles.css" />
+</head>
+
+<body>
+    <!-- Navigation panel -->
+    <nav class="navbar navbar-expand-lg bg-light border">
+        <div class="container-fluid">
+            <!-- Project name -->
+            <a class="navbar-brand" href="#">Space Quiz</a>
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Toggled content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- Home button -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">
+                            <img src="images\icons8-earth-planet-48.png">Home</a>
+                    </li>
+                    <!-- Instructions button -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="images\icons8-test-tube-48.png">Instructions</a>
+                    </li>
+                    <!-- Start button -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="start.html">
+                            <img src="images\icons8-rocket-48.png">Start Quiz</a>
+                    </li>
+                    <!-- Results button -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="results.html">
+                            <img src="images\icons8-diploma-48.png">Results</a>
+                    </li>
+                </ul>
+                <!-- Search bar and button -->
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">
+                        <img src="images\icons8-search-48.png"></button>
+                </form>
             </div>
         </div>
-    </body>
-    <script src="script.js"></script>
+    </nav>
+    <section>
+        <div class="container text-center border p-4">
+            <h1 class="display-1 pb-3"><strong>Instructions</strong></h1>
+            <p class="pb-4">This quiz is general knowledge of humanities major accomplishments when it comes to
+                everything space.
+                It is multiple choice answers, check the button next to the answer you think is correct and then hit
+                submit.
+                You will be shown the correct answers before preceeding to the next question, once all questions
+                have been answered you will be directed to the results page to view your final results.
+            </p>
+            <button class="btn btn-primary" type="button">
+                <a class="nav-link" href="start.html">Start Quiz</a>
+            </button>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="container-fluid bg-light border">
+        <small>
+            This website was made by myself Harrison Webb, with the help of the Learning People.
+            Icons by <a href="https://icons8.com/">icons8.com</a>
+        </small>
+    </footer>
+</body>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+<!-- JS sheet link -->
+<script src="js\script.js"></script>
+
 </html>

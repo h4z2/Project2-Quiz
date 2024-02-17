@@ -31,7 +31,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <!-- Home button -->
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">
+                        <a class="nav-link active" aria-current="page" href="index.html">
                             <img src="images\icons8-earth-planet-48.png">Home</a>
                     </li>
                     <!-- Instructions button -->
@@ -41,7 +41,7 @@
                     </li>
                     <!-- Start button -->
                     <li class="nav-item">
-                        <a class="nav-link" href="start.html">
+                        <a class="nav-link" href="#">
                             <img src="images\icons8-rocket-48.png">Start Quiz</a>
                     </li>
                     <!-- Results button -->
@@ -60,15 +60,20 @@
         </div>
     </nav>
     <section>
-        <div class="container text-center border p-4">
-            <h1 class="display-6"><small>Humanities Space Age Quiz</small></h1>
-            <h1 class="display-1 pb-3"><strong>Test your knowledge</strong></h1>
-            <p class="pb-3 text-muted">This is your chance to test how much you know about humanities greatest
-                achievements when it comes to space.
-            </p>
-            <button class="btn btn-primary" type="button">
-                <a class="nav-link" href="howto.html">Instructions</a>
-            </button>
+        <div class="container border p-4">
+            <div id="question-container"></div>
+            <div id="question">Click start to begin!</div>
+            <div id="answer-buttons" class="hide">
+                <button type="button" class="btn btn-secondary"></button>
+                <button type="button" class="btn btn-secondary"></button>
+                <button type="button" class="btn btn-secondary"></button>
+                <button type="button" class="btn btn-secondary"></button>
+            </div>
+            <div id="results" class="hide"></div>
+            <div class="controls">
+                <button id="start-btn" class="btn btn-primary">Start</button>
+                <button id="next-btn" class="btn btn-primary hide">Next</button>
+            </div>
         </div>
     </section>
     <!-- Footer -->
