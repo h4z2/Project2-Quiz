@@ -105,7 +105,7 @@ function showResults() {
     questionElement.classList.add("hide")
     resultsElement.classList.remove("hide")
 
-    let resultsHTML = `<h2>Your Score</h2>`
+    let resultsHTML = `<h2>Your Results</h2>`
     userResponses.forEach((response) => {
         resultsHTML += `<p>${response.question}</p>
                         <p>Selected Answer: <span class="${response.isCorrect === 'Correct' ? 'text-bg-success' : 'text-bg-danger'}">${response.selectedAnswer}</span></p>
@@ -140,7 +140,7 @@ const questions = [
         ]
     },
     {
-        question: "When did the Webb telescope launch",
+        question: "When did the Webb telescope launch?",
         answers: [
             { text: "2018", correct: false },
             { text: "2022", correct: false },

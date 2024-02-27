@@ -1,16 +1,35 @@
-section{
-    margin-top: 10%;
-    margin-bottom: 10%;
+section {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-footer{
+footer {
     position: fixed;
     left: 0;
     bottom: 0;
     text-align: center;
 }
-.card{
+.card {
     float: left;
 }
-.hide{
+.hide {
     display: none;
+}
+
+.background-img {
+    z-index: -1;
+    position: fixed;
+    max-width: fit-content;
+    max-height: 100%;
+}
+
+@media (min-width: 1250px) {
+    .img-2 {
+        display: none;
+    }
+}
+
+@media (max-width: 1250px) {
+    .img-1 {
+        display: none;
+    }
 }
