@@ -1,10 +1,12 @@
 <h1>Harrison Webbs Quiz Project</h1>
 This Project is a responsive quiz to showcase all the knowledge and skills learnt during the second section of my course Code+.
-The website offers a breif explanation of how to start the quiz, the quiz itself and a results page where your score is shown.
+The main focus was on javascript which I feel I have shown a solid understanding of with this completed project.
+The website offers space themed quiz with instructions randomised questions live results and a final results page.
 
 <h3>UDX</h3>
 This project was designed with mobile first in mind and is responsive on both mobile and desktop.
-The quiz is also visually appealing on both mobile and desktop.
+The quiz is also visually appealing on both mobile and desktop, the background images are optimised and
+change depending on the viewport width of the users device.
 
 <h3>Features</h3>
 
