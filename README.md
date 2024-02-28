@@ -12,6 +12,9 @@ The quiz is also visually appealing on both mobile and desktop.
 <li><h5>Feature 1</h5>Nav menu with the start quiz button taking you to the correct page as well as starting the quiz</li>
 <li><h5>Feature 2</h5>Large font that scales with screen width</li>
 <li><h5>Feature 3</h5>A multi question quiz that gives you a score at the end</li>
+<li><h5>Feature 4</h5>The questions randomise order each time you take the quiz</li>
+<li><h5>Feature 5</h5>After clicking an answer you are shown a live response if it was correct or not</li>
+<li><h5>Feature 6</h5>Background images that change depending on your veiwport width</li>
 </ul>
 
 <h3>Technologies Used</h3>
@@ -19,6 +22,8 @@ The quiz is also visually appealing on both mobile and desktop.
 <ul>
 <li>HTML</li>
 <li>CSS</li>
+<li>Javascript</li>
+<li>Media Queries</li>
 <li>Git</li>
 <li>Github</li>
 </ul>
@@ -32,6 +37,5 @@ did this regularly throughout the development process.
 <h3>Acknowledgements</h3>
 
 All coding was learnt from videos provided by the learning people during my course Code+
-My mentors have viewed my work and given advise on where and how to improve. The facts used in the quiz all came from
-the NASA website : https://www.nasa.gov
+My mentors have viewed my work and given advise on where and how to improve.
 
